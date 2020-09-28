@@ -1,4 +1,4 @@
-# Pipeline based on only forward ITS reads, according to recommendations of Pauvert et al. (2019; Fungal Ecology)
+# Pipeline based on only forward ITS reads, according to recommendations of Pauvert et al. (2019; Fungal Ecology). This technique recovers the a very high proportion of Basidiomycetes and Ascomycetes and does not lose taxa with an ITS1 region longer than read merging would allow (i.e. 600 bp)
 
 # Install/Load Packages ---------------------------------------------------
 install.packages("devtools")
